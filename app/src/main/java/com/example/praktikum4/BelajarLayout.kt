@@ -62,11 +62,11 @@ fun HeaderSection(){
             {
                 Image(painter = painterResource(id = R.drawable.ti_umyy),
                     contentDescription = null,
-                    modifier = Modifier.clip(CircleShape))
+                    modifier = Modifier.clip(CircleShape).size(70.dp))
 
                 Icon(Icons.Filled.Check,
                     contentDescription = null,
-                    modifier = Modifier.size(30.dp)
+                    modifier = Modifier.size(20.dp)
                         .background(Color.Blue), tint = Color.White)
             }
 
